@@ -1,0 +1,31 @@
+Model,Type,epsilon,Accuracy,Precision,Recall,F1-score,DIR,DPD,EOpp,EO
+Logistic Regression,DiffPriv,0.1,0.567,0.3007,0.5897,0.3983,0.7256,0.1364,0.3347,0.3347
+Logistic Regression,DiffPriv,0.5,0.5841,0.3168,0.6154,0.4183,0.7576,0.1188,0.2628,0.2628
+Logistic Regression,DiffPriv,1.0,0.5966,0.3278,0.6282,0.4308,0.6734,0.16,0.2779,0.2779
+Logistic Regression,DiffPriv,5.0,0.6355,0.3636,0.6667,0.4706,0.6584,0.1604,0.272,0.272
+Logistic Regression,DiffPriv,10.0,0.6449,0.2831,0.3013,0.2919,0.8584,0.0374,0.0474,0.0474
+Random Forest,DiffPriv,0.1,0.634,0.3401,0.5385,0.4169,0.8969,0.0403,0.1216,0.1216
+Random Forest,DiffPriv,0.5,0.7181,0.4113,0.3718,0.3906,0.5706,0.1008,0.1811,0.1811
+Random Forest,DiffPriv,1.0,0.6869,0.3743,0.4295,0.4,0.4767,0.1584,0.3508,0.3508
+Random Forest,DiffPriv,5.0,0.704,0.3988,0.4295,0.4136,0.4712,0.1504,0.3508,0.3508
+Random Forest,DiffPriv,10.0,0.704,0.3988,0.4295,0.4136,0.4712,0.1504,0.3508,0.3508
+Naive Bayes,DiffPriv,0.1,0.2928,0.2395,0.8782,0.3764,0.8479,0.1387,0.2141,0.2141
+Naive Bayes,DiffPriv,0.5,0.4688,0.2222,0.4744,0.3027,0.5973,0.2224,0.1484,0.2461
+Naive Bayes,DiffPriv,1.0,0.4315,0.2368,0.6026,0.34,0.7517,0.1945,0.2622,0.2622
+Naive Bayes,DiffPriv,5.0,0.7118,0.4225,0.5064,0.4606,0.4746,0.2762,0.171,0.3117
+Naive Bayes,DiffPriv,10.0,0.7227,0.4545,0.7051,0.5528,0.5901,0.1647,0.1641,0.1641
+Logistic Regression,DiffPriv w/ fairlearn,0.1,0.7414,0.4479,0.2756,0.3413,0.4419,0.0911,0.2213,0.2213
+Logistic Regression,DiffPriv w/ fairlearn,0.5,0.7399,0.4382,0.25,0.3184,0.4796,0.0783,0.2422,0.2422
+Logistic Regression,DiffPriv w/ fairlearn,1.0,0.7352,0.4205,0.2372,0.3033,0.7203,0.04,0.1762,0.1762
+Logistic Regression,DiffPriv w/ fairlearn,5.0,0.7321,0.4024,0.2115,0.2773,0.7804,0.029,0.1461,0.1461
+Logistic Regression,DiffPriv w/ fairlearn,10.0,0.6449,0.2831,0.3013,0.2919,0.8584,0.0374,0.0474,0.0474
+Random Forest,DiffPriv w/ fairlearn,0.1,0.6137,0.3271,0.5577,0.4123,0.8794,0.0509,0.1442,0.1442
+Random Forest,DiffPriv w/ fairlearn,0.5,0.7009,0.3989,0.4551,0.4251,0.9954,0.0013,0.0271,0.0271
+Random Forest,DiffPriv w/ fairlearn,1.0,0.5903,0.3162,0.5897,0.4116,0.7682,0.1089,0.1818,0.1818
+Random Forest,DiffPriv w/ fairlearn,5.0,0.6106,0.339,0.6346,0.442,0.7901,0.0986,0.2854,0.2854
+Random Forest,DiffPriv w/ fairlearn,10.0,0.6059,0.3274,0.5897,0.4211,0.852,0.0663,0.2838,0.2838
+Naive Bayes,DiffPriv w/ fairlearn,0.1,0.2804,0.2424,0.9231,0.384,0.9712,0.0274,0.0118,0.0396
+Naive Bayes,DiffPriv w/ fairlearn,0.5,0.6869,0.3228,0.2628,0.2898,0.9278,0.0144,0.0023,0.0174
+Naive Bayes,DiffPriv w/ fairlearn,1.0,0.2477,0.2441,1.0,0.3925,0.9945,0.0055,0.0,0.0073
+Naive Bayes,DiffPriv w/ fairlearn,5.0,0.5857,0.3154,0.6026,0.4141,0.8227,0.0969,0.0582,0.1106
+Naive Bayes,DiffPriv w/ fairlearn,10.0,0.6931,0.4208,0.6987,0.5253,0.9463,0.0227,0.0036,0.0344

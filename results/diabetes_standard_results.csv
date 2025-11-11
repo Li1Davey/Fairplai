@@ -1,0 +1,7 @@
+Model,Type,Accuracy,Precision,Recall,F1-score,DIR,DPD,EOpp,EO
+Logistic Regression,Standard,0.7297,0.3083,0.7718,0.4406,0.8235,0.0676,0.0186,0.0638
+Random Forest,Standard,0.7102,0.2931,0.7796,0.426,0.8531,0.0587,0.0056,0.0577
+Naive Bayes,Standard,0.7229,0.2908,0.7012,0.4111,0.9795,0.0069,0.0607,0.0607
+Logistic Regression,Standard w/ fairlearn,0.7299,0.3082,0.7696,0.4401,0.9272,0.0262,0.0269,0.0269
+Random Forest,Standard w/ fairlearn,0.7099,0.2912,0.7692,0.4225,0.7648,0.0987,0.025,0.0995
+Naive Bayes,Standard w/ fairlearn,0.7236,0.2921,0.7053,0.4132,0.9325,0.0234,0.0224,0.0224
