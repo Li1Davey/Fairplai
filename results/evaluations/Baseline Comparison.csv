@@ -1,0 +1,11 @@
+Dataset ,DP w/ Fairness ,Accuracy 
+Adult ,Y ,0.5104 
+,N ,0.7991 
+AIDS ,Y ,0.614 
+,N ,0.8214 
+Diabetes ,Y ,0.6552 
+,N ,0.721 
+Student_performance ,Y ,0.5652 
+,N ,0.8889 
+COMPAS ,Y ,0.689 
+,N ,0.7579 
